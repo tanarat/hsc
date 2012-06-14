@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Product Name -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_product_name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/field41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="text"
+            android:maxLines="1" >
+
+            <requestFocus />
+        </EditText>
+
+        <!-- Brand -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_brand_name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/field42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="text"
+            android:maxLines="1" >
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_material"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/f43_opt0"
+                android:text="@string/lbl_result_right"
+                android:width="150dp" />
+
+            <RadioButton
+                android:id="@+id/f43_opt1"
+                android:text="@string/lbl_result_wrong"
+                android:width="150dp" />
+        </RadioGroup>
+
+        <!-- ส่วนผสม -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_ingrediant"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/f44_opt0"
+                android:text="@string/lbl_result_right"
+                android:width="150dp" />
+
+            <RadioButton
+                android:id="@+id/f44_opt1"
+                android:text="@string/lbl_result_wrong"
+                android:width="150dp" />
+        </RadioGroup>
+
+        <!-- เอกสาร -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_document"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/f45_opt0"
+                android:text="@string/lbl_result_right"
+                android:width="150dp" />
+
+            <RadioButton
+                android:id="@+id/f45_opt1"
+                android:text="@string/lbl_result_wrong"
+                android:width="150dp" />
+        </RadioGroup>
+
+        <!-- เอกสาร -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_document2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/f46_opt0"
+                android:text="@string/lbl_result_right"
+                android:width="150dp" />
+
+            <RadioButton
+                android:id="@+id/f46_opt1"
+                android:text="@string/lbl_result_wrong"
+                android:width="150dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

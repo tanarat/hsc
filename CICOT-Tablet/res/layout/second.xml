@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Evaluation date -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_evaldate"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <DatePicker
+            android:id="@+id/field9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:startYear="2012" />
+
+        <!-- Evaluation Time -->
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_starttime"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_endtime"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+<!-- 				Evaluate start time -->
+                <TimePicker
+                    android:id="@+id/field10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip" />
+<!-- 				Evaluate end time -->
+                <TimePicker
+                    android:id="@+id/field11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- Evaluation Objective -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_objective"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+ 
+
+                    <RadioButton
+                        android:id="@+id/obj0" 
+                        android:text="@string/lbl_objective0" android:width="130dp"/>
+
+                    <RadioButton 
+                        android:id="@+id/obj1"
+                        android:text="@string/lbl_objective1" android:width="130dp"/>
+
+                    <RadioButton
+                        android:id="@+id/obj2" 
+                        android:text="@string/lbl_objective2" android:width="130dp"/>
+
+                    <RadioButton
+                        android:id="@+id/obj3" 
+                        android:text="@string/lbl_objective3" android:width="130dp"/>
+
+        </RadioGroup>
+
+        <!-- Auditors -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_auditor_name_list"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <!-- android:text="@string/lbl_no" -->
+                    
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/lbl_auditor_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/lbl_auditor_position"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/lbl_auditor_phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="1."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<!--                 ชื่อกรรมการ 1 -->
+                <EditText
+                    android:id="@+id/field13"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field14"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field15"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="2."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/field16"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field17"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field18"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="3."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/field19"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field20"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field21"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="4."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/field22"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field23"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field24"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- BP Representative -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_bprep_name_list"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <!-- android:text="@string/lbl_no" -->
+                    
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="@string/lbl_bprep_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/lbl_auditor_position"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/lbl_auditor_phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="1."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/field25"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field26"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field27"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="2."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/field28"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field29"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field30"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="3."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/field31"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field32"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field33"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="4."
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/field34"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Position -->
+
+                <EditText
+                    android:id="@+id/field35"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <!-- Phone -->
+
+                <EditText
+                    android:id="@+id/field36"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="phone" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- สิ่งที่ต้องดำเนินการแก้ไข -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_defect"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/field37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+        <!-- ข้อเสนอแนะ -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_suggestion"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/field38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+        <!-- Evaluation Result -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_result"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/result_pass"  
+                    android:text="@string/lbl_result_pass" android:width="300dp"/>
+
+                <RadioButton
+                    android:id="@+id/result_fail" 
+                    android:text="@string/lbl_result_fail" android:width="300dp"/>
+         
+        </RadioGroup>
+        <!-- เนื่องจาก -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_reason"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <EditText
+            android:id="@+id/field40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+    </LinearLayout>
+
+</ScrollView>

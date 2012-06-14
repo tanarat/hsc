@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/enumber_banner" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/textE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-"
+                android:textSize="50dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/searchTxt"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textE"
+            android:textSize="45dp"
+            android:hint="Number"
+            android:singleLine="true" >
+
+        </EditText>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/searchTxt"
+            android:drawableTop="@drawable/icon_search"
+            android:text="ค้นหา" 
+            android:onClick="search"/>
+    </RelativeLayout>
+
+    
+    <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        
+        >
+
+       
+        
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-Number : " />
+
+            <TextView
+                android:id="@+id/txtCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : " />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description : " />
+
+            <TextView
+                android:id="@+id/txtDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Halal Status : " />
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" 
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+        </TableRow>
+                
+	
+         	
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         />
+    
+</LinearLayout>

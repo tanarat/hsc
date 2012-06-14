@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/questionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/conformCh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio1" />
+
+    <EditText
+        android:id="@+id/remarkTxt"
+        android:layout_width="match_parent"
+		android:layout_height="100dip"
+        android:gravity="top"
+
+        android:inputType="textMultiLine" >
+    </EditText>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reasonList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:paddingLeft="20dip"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+    </LinearLayout>
+ 
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.hsc.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@drawable/hsc_logo"
+        android:label="@string/app_name" >
+        
+       
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity 
+            android:name=".AuditorsActivity"
+            android:label="@string/activity_name_auditor">
+        </activity>
+        <activity 
+            android:name=".ItemsActivity"
+            android:label="@string/activity_name_item">
+        </activity>
+        <activity 
+            android:name=".ChecklistsActivity"
+            android:label="@string/activity_name_checklist">
+        </activity>
+        <activity 
+            android:name=".BPartnersActivity"
+            android:label="@string/activity_name_bpartner">
+        </activity>
+        <activity 
+            android:name=".PaperActivity"
+            android:label="@string/activity_name_paper">
+        </activity>
+        <activity 
+            android:name=".ItemNoteActivity"
+            android:label="@string/activity_name_item">
+        </activity>
+        <activity 
+            android:name=".EvaluateFormActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+            android:name=".islamic.FormTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+            android:name=".islamic.FirstTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+         <activity 
+            android:name=".islamic.SecondTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+         <activity 
+            android:name=".islamic.ThirdTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+            android:name=".islamic.ForthTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+          android:name=".islamic.FifthTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+          android:name=".islamic.SixthTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+            android:name=".islamic.SeventhTabActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+            android:name=".islamic.FormListActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity android:name="FormActivity">
+<!--             <intent-filter> -->
+
+<!--                 <action android:name="android.intent.action.MAIN" /> -->
+<!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+
+                
+<!--             </intent-filter> -->
+        </activity>
+        <activity 
+            android:name=".islamic.FormViewActivity"
+            android:label="@string/activity_name_evalform">
+        </activity>
+        <activity 
+            android:name=".islamic.ENumberActivity"
+            android:label="@string/activity_name_enumber">
+        </activity>
+        <activity 
+            android:name=".enumber.ENumberCheckActivity"
+            android:label="@string/activity_name_enumber">
+        </activity>
+    </application>
+	 
+</manifest>

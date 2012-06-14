@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+ 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_13"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+  	        android:orientation="horizontal"  >
+
+            <RadioButton android:id="@+id/f56_opt0" android:text="@string/lbl_result_good" android:width="150dp"/>
+            <RadioButton android:id="@+id/f56_opt1" android:text="@string/lbl_result_ok" android:width="150dp"/>
+            <RadioButton android:id="@+id/f56_opt2" android:text="@string/lbl_result_notok" android:width="150dp"/>
+        </RadioGroup>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_14"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f57_opt0" android:text="@string/lbl_result_good" android:width="150dp"/>
+            <RadioButton android:id="@+id/f57_opt1" android:text="@string/lbl_result_ok" android:width="150dp"/>
+            <RadioButton android:id="@+id/f57_opt2" android:text="@string/lbl_result_notok" android:width="150dp"/>
+        </RadioGroup>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_15"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f58_opt0" android:text="@string/lbl_result_good" android:width="150dp"/>
+            <RadioButton android:id="@+id/f58_opt1" android:text="@string/lbl_result_ok" android:width="150dp"/>
+            <RadioButton android:id="@+id/f58_opt2" android:text="@string/lbl_result_notok" android:width="150dp"/>
+        </RadioGroup>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_16"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f59_opt0" android:text="@string/lbl_result_good" android:width="150dp"/>
+            <RadioButton android:id="@+id/f59_opt1" android:text="@string/lbl_result_ok" android:width="150dp"/>
+            <RadioButton android:id="@+id/f59_opt2" android:text="@string/lbl_result_notok" android:width="150dp"/>
+        </RadioGroup>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_17"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f60_opt0" android:text="@string/lbl_result_use" android:width="150dp"/>
+            <RadioButton android:id="@+id/f60_opt1" android:text="@string/lbl_result_dontuse" android:width="150dp"/>
+
+        </RadioGroup>
+        
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_18"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f61_opt0" android:text="@string/lbl_result_good" android:width="150dp"/>
+            <RadioButton android:id="@+id/f61_opt1" android:text="@string/lbl_result_ok" android:width="150dp"/>
+            <RadioButton android:id="@+id/f61_opt2" android:text="@string/lbl_result_notok" android:width="150dp"/>
+        </RadioGroup>
+        
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_19"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			       <EditText
+            android:id="@+id/field62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="text"
+            android:maxLines="1" >
+
+       		 </EditText>
+        
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_20"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f63_opt0" android:text="@string/lbl_result_good" android:width="150dp"/>
+            <RadioButton android:id="@+id/f63_opt1" android:text="@string/lbl_result_ok" android:width="150dp"/>
+            <RadioButton android:id="@+id/f63_opt2" android:text="@string/lbl_result_notok" android:width="150dp"/>
+        </RadioGroup>
+        
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_21"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/field64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f64_opt0" android:text="@string/lbl_result_yes" android:width="150dp"/>
+            <RadioButton android:id="@+id/f64_opt1" android:text="@string/lbl_result_no" android:width="150dp"/>
+
+        </RadioGroup>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_22"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <RadioGroup
+            android:id="@+id/field65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f65_opt0" android:text="@string/lbl_result_good" android:width="150dp"/>
+            <RadioButton android:id="@+id/f65_opt1" android:text="@string/lbl_result_ok" android:width="150dp"/>
+            <RadioButton android:id="@+id/f65_opt2" android:text="@string/lbl_result_notok" android:width="150dp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_23"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <RadioGroup
+            android:id="@+id/field66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip" 
+            android:orientation="horizontal">
+
+            <RadioButton android:id="@+id/f66_opt0" android:text="@string/lbl_result_have" android:width="150dp"/>
+            <RadioButton android:id="@+id/f66_opt1" android:text="@string/lbl_result_donthave" android:width="150dp"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gson"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/http-client"/>
+	<classpathentry kind="lib" path="libs/gson-2.2.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/hsc-model"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

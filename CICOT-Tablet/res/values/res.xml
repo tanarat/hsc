@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="road">
+        <item >บางกอกน้อย</item>
+        <item >บางขุนนนท์</item>
+        <item >ลาดพร้าว</item>
+        <item >จรัญสนิทวงศ์</item>
+        <item >บางนา</item>
+    </string-array>
+    <string-array name="city">
+        <item >กรุงเทพฯ</item>
+        <item >สมุทรสาคร</item>
+        <item >ปทุมธานี</item>
+        <item >นนทบุรี</item>
+    </string-array>
+    <string-array name="district">
+        <item >บางกอกน้อย</item>
+        <item >ธนบุรี</item>
+        <item >ตลิ่งชัน</item>
+        <item >จตุจักร</item>
+    </string-array>
+    <string-array name="subdistrict">
+        <item >บางขุนนนท์</item>
+        <item >ตลาดพลู</item>
+        <item >บางขุนศรี</item>
+    </string-array>
+    <string-array name="choice1">
+        <item>ถูกต้อง</item>
+        <item>ไม่ถูกต้อง</item>
+    </string-array>
+    <string-array name="choice2">
+        <item>ดี</item>
+        <item>ปานกลาง</item>
+        <item>ปรับปรุง</item>
+    </string-array>
+    <string-array name="choice3">
+        <item>ใช้</item>
+        <item>ไม่ได้ใช้</item>
+    </string-array>
+    <string-array name="choice4">
+        <item>เคย</item>
+        <item>ไม่เคย</item>
+    </string-array>
+        <string-array name="choice5">
+        <item>มี</item>
+        <item>ไม่มี</item>
+    </string-array>
+    <string-array name="tabName">
+        <item>สถานประกอบการ</item>
+        <item>การตรวจประเมิน</item>
+        <item>เอกสาร</item>
+        <item>สถานที่ผลิต</item>
+        <item>การควบคุมและการผลิต</item>
+        <item>บุคลากร</item>
+        <item>ข้อมูลอื่นๆ</item>
+    </string-array>
+</resources>

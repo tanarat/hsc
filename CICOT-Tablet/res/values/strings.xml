@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyAndroid_v2Activity!</string>
+    <string name="app_name">HSC</string>
+	<string name="activity_name_auditor">Auditors</string>
+	<string name="activity_name_item">Items</string>
+	<string name="activity_name_checklist">Checklists</string>
+	<string name="activity_name_bpartner">BPartners</string>
+	<string name="activity_name_paper">Paper</string>
+	<string name="activity_name_evalform">ใบประเมินผลการตรวจเพื่อพิจารณารับรองผลิตภัณฑ์ฮาลาลฝ่ายกิจการฮาลาล</string>
+	<string name="activity_name_enumber">ตรวจสอบ E-Number</string>
+	<string name="lbl_form_name_new">ฟอร์มใหม่</string>
+	<string name="lbl.btn.viewitems">Items</string>
+	<string name="lbl.btn.viewchecklists">Checklists</string>
+	<string name="lbl.btn.viewauditors">Auditors</string>
+	<string name="lbl.btn.viewbpartners">BPartners</string>
+	<string name="lbl_menu_loaddata">โหลดข้อมูล E-Number</string>
+	<string name="lbl_menu_setting">Setting</string>
+	<string name="lbl_menu_save">บันทึกฟอร์ม</string>
+	<string name="lbl_menu_new">สร้างฟอร์มใหม่</string>
+	<string name="lbl.btn.newPaper">New paper</string>
+	<string name="lbl_btnprocess">Process</string>
+	<string name="lbl.btn.evalform">ใบประเมินรับรองผลิตภัณฑ์ฮาลาล</string>
+	<string name="lbl.btn.enumbersearch">ตรวจสอบ E-Number</string>
+	<string name="msg.warning.message.loaddata">ข้อมูล E-Number เดิมจะถูกลบ</string>
+	<string name="msg_confirm_message_save">ยืนยันการบันทึกรายการ</string>
+	<string name="alert_dialog_input_form_name_title">กำหนดชือฟอร์ม</string>
+	<string name="msg_input_form_name">กรุณาระบุชื่อฟอร์ม</string>
+	<string name="msg_save_complete">บันทึกรายการเรียบร้อย</string>
+	<string name="msg_save_fail">บันทึกรายการไม่สำเร็จ</string>
+    <string name="alert_dialog_two_buttons_title">คำเตือน</string>
+    <string name="alert_dialog_ok">ตกลง</string>
+    <string name="alert_dialog_cancel">ยกเลิก</string>
+    <string name="lbl_bpartner">Business Partner</string>
+    <string name="lbl_audittype">Audit Type</string>
+    <string name="lbl_checklist">Checklist</string>
+    <string name="lbl_auditor">ที่ปรึกษา</string>
+    <string name="lbl_paperdate">วันที่ตรวจประเมิน</string>
+    <string name="lbl_papertime">เวลาตรวจประเมิน</string>
+    <string name="lbl_defect">สิ่งที่ต้องดำเนินการ/แก้ไข</string>
+    <string name="lbl_suggestion">ข้อเสนอแนะ</string>
+    <string name="lbl_reason">เนื่องจาก</string>
+    <string name="radio1">สอดคล้องตามระบบ HAL-Q</string>
+    <string name="radio2">ไม่สอดคล้องตามระบบ HAL-Q</string>
+    <string name="btnPrv">Prev</string>
+    <string name="btnNxt">Next</string>
+    <string name="relative_layout_1_top">top</string>
+    <string name="relative_layout_1_bottom">bottom</string>
+    <string name="relative_layout_1_center">center</string>
+    
+    <string name="tab0">ข้อมูลโรงงาน</string>
+    <string name="tab3">รายการตรวจสอบเอกสาร</string>
+    
+    <!-- Evaluation Form - page1 -->
+    <string name="lbl_bpname">ชื่อสถานประกอบการ</string>
+    <string name="lbl_bpaddress">ที่อยู่</string>
+    <string name="lbl_bpaddress2">สถานที่ผลิต/จัดเก็บ ตั้งอยู่เลขที่</string>
+    <string name="lbl_bpphone">โทรศัพท์</string>
+    <string name="lbl_evaldate">วันที่ตรวจ</string>
+    <string name="lbl_starttime">เริ่มตรวจเวลา</string>
+    <string name="lbl_endtime">ตรวจเสร็จเวลา</string>
+    <string name="lbl_objective">ดำเนินการตรวจครั้งนี้เพื่อ</string>
+    <string name="lbl_objective0">ขอใหม่</string>
+    <string name="lbl_objective1">ขอเพิ่ม</string>
+    <string name="lbl_objective2">ตรวจติดตาม</string>
+    <string name="lbl_objective3">ตรวจต่ออายุ</string>
+    <string name="lbl_certno">เลขที่หนังสือรับรอง</string>
+    <string name="lbl_certexpdate">วันหมดอายุ</string>
+    <string name="lbl_halalno">เลขที่ฮาลาล</string>
+    <string name="lbl_halalexpdate">วันหมดอายุ</string>
+    <string name="hint_address1">เลขที่ หมู่ ซอย</string>
+    <string name="hint_address2">ถนน</string>
+    <string name="hint_address3">แขวง/ตำบล</string>
+    <string name="hint_address4">เขต/อำเภอ</string>
+    <string name="hint_postal">รหัสไปรษณีย์</string>
+    <string name="lbl_auditor_name_list">รายชื่อกรรมการ</string>
+    <string name="lbl_auditor_name">ชื่อกรรมการ</string>
+    <string name="lbl_auditor_position">ตำแหน่ง</string>
+    <string name="lbl_auditor_phone">โทรศัพท์</string>
+    <string name="lbl_no">ลำดับที่</string>
+    <string name="lbl_bprep_name_list">รายชื่อผู้แทนสถานประกอบการ</string>
+    <string name="lbl_bprep_name">ชื่อผู้แทนสถานประกอบการ</string>
+    <string name="lbl_result">สรุปผลการตรวจเพื่อรับรองฮาลาล</string>
+    <string name="lbl_result_pass">อนุมัติรับรองฮาลาล</string>
+    <string name="lbl_result_fail">ไม่อนุมัติรับรองฮาลาล</string>
+    
+    <string name="lbl_product_name">ผลิตภัณฑ์</string>
+    <string name="lbl_brand_name">เครื่องหมายการค้า</string>
+    <string name="lbl_material">วัตถุดิบที่ใช้</string>
+    <string name="lbl_ingrediant">ส่วนผสม</string>
+    <string name="lbl_document">เอกสารประกอบส่วนผสมและวัตถุดิบ</string>
+    <string name="lbl_document2">เอกสารประกอบวัตถุดิบและส่วนผสมนำเข้าตรงกับเอกสารที่ยื่นขอการรับรองฮาลาล</string>
+    <string name="lbl_result_right">ถูกต้อง</string>
+    <string name="lbl_result_wrong">ไม่ถูกต้อง</string>
+    <string name="lbl_result_good">ดี</string>
+    <string name="lbl_result_ok">ปานกลาง</string>
+    <string name="lbl_result_notok">ต้องปรับปรุง</string>
+    <string name="lbl_result_use">ใช้</string>
+    <string name="lbl_result_dontuse">ไม่ใช้</string>
+        <string name="lbl_result_yes">เคย</string>
+    <string name="lbl_result_no">ไม่เคย</string>
+            <string name="lbl_result_have">มี</string>
+    <string name="lbl_result_donthave">ไม่มี</string>
+    
+    <string name="lbl_4">ภายนอกบริเวณรอบอาคารการผลิต</string>
+    <string name="lbl_5">ภายในบริเวณอาคารการผลิต</string>
+    <string name="lbl_6">ระบบท่อระบายน้ำบริเวณโรงงาน</string>
+    <string name="lbl_7">ระบบท่อระบายน้ำภายในอาคารการผลิต</string>
+    <string name="lbl_8">เครื่องจักรและอุปกรณ์การผลิต</string>
+    <string name="lbl_9">ห้องน้ำ, ห้องเปลี่ยนเสื้อผ้า</string>
+    <string name="lbl_10">โรงอาหาร</string>
+    <string name="lbl_11">สถานที่จัดเก็บวัตถุดิบและส่วนผสม</string>
+    <string name="lbl_12">สถานที่จัดเก็บผลิตภัณฑ์</string>
+    <!-- การควบคุมและการผลิต -->
+    <string name="lbl_13">ระบบป้องกันเชื้อโรคในการผลิต</string>
+    <string name="lbl_14">ระบบการกำจัดขยะและของเสีย</string>
+    <string name="lbl_15">การใช้สารเคมีในกระบวนการผลิตและการทำความสะอาด       </string>
+    <string name="lbl_16">การล้างทำความสะอาดในกระบวนการผลิต</string>
+    <string name="lbl_17">การใช้สบูดิน</string>
+    <string name="lbl_18">การจัดระบบและควบคุมบุคคลภายนอก</string>
+    <string name="lbl_19">กำลังการผลิต</string>
+    <string name="lbl_20">การบรรจุผลิตภัณฑ์สำเร็จรูป</string>
+    <string name="lbl_21">ผลิตภัณฑ์ของบริษัทเคยมีปัญหาในท้องตลาดหรือไม่</string>
+    <string name="lbl_22">การจดบันทึกการทำงานและระบบต่างๆ</string>
+    <string name="lbl_23">ผลิตภัณฑ์อื่นที่ไม่ได้รับรองฮาลาลแต่อยู่ในกระบวนการผลิตที่ขอรับรองฮาลาล</string>
+    <!-- บุคลากร -->
+    <string name="lbl_24">มีพนักงานรวมทั้งสิ้นจำนวน</string>
+    <string name="lbl_25">มีพนักงานมุสลิมจำนวน</string>
+    <string name="lbl_26">สุขภาพและความสะอาด</string>
+    <string name="lbl_27">การแต่งกายของพนักงาน</string>
+    <string name="lbl_28">ความเข้าใจเรื่องกิจการฮาลาลของผู้บริหาร</string>
+    <string name="lbl_29">ความเข้าใจเรื่องกิจการฮาลาลของพนักงาน</string>
+    <string name="lbl_30">การสัมมนาและอบรมเรื่องเกี่ยวกับกิจการฮาลาล</string>
+    
+    <!-- ข้อมูลอื่นๆ -->
+    <string name="lbl_31">มาตรฐานโรงงาน</string>
+    <string name="lbl_32">สถานที่ปฎิบัติศาสนกิจ</string>
+    <string name="lbl_33">สถานที่พักผ่อน,ลานกีฬา</string>
+    <string name="lbl_34">การตลาด</string>
+    <string name="lbl_35">ในประเทศ</string>
+    <string name="lbl_36">ต่างประเทศ</string>
+    
+    <string name="lbl_standard0">GMP</string>
+    <string name="lbl_standard1">HACCP</string>
+    <string name="lbl_standard2">ISO</string>
+    <string name="lbl_standard3">HALAL</string>
+    <string name="lbl_standard4">HAL-Q</string>
+    <string name="lbl_standard5">อื่นๆ</string>
+    
+    <string name="menu_title">เมนู</string>
+    <string name="menu_view">ดูรายละเอียด</string>
+    <string name="menu_delete">ลบฟอร์มนี้</string>
+    <string name="menu_rename">เปลี่ยนชื่อฟอร์ม</string>
+    <string name="menu_copy">คัดลอกฟอร์ม</string>
+    <string name="menu_edit">แก้ไขฟอร์ม</string>
+    <string name="menu_send2server">ส่งฟอร์มไปยังเซิฟเวอร์</string>
+    
+    <string name="lbl_enumber_search_header">ตรวจสอบวัตถุเจือปนในอาหาร </string>
+</resources>
