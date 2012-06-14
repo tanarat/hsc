@@ -1,0 +1,71 @@
+10
+
+dir
+5
+svn://203.146.127.161/projects/hsc-erp/hsc/hsc/src/org/compiere
+svn://203.146.127.161/projects
+
+
+
+2011-08-18T10:29:19.453486Z
+5
+noum
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+23ae7d38-98d5-48e7-a50f-d3afab290370
+
+Adempiere.java
+file
+
+
+
+
+2011-08-18T10:39:46.000000Z
+0c8d7a7259addb845adf10a4ed63bf67
+2011-08-18T10:29:19.453486Z
+5
+noum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17762
+
+images
+dir
+
+model
+dir
+
+util
+dir
+
