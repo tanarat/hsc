@@ -8,6 +8,13 @@
 <title>Index page</title>
 </head>
 <body>
+<s:form action="validateUser" namespace="/user">
+
+	<s:textfield key="global.username" name="username" />
+	<s:password key="global.password" name="password" />	
+	<s:submit key="global.submit" name="submit" />
+	
+</s:form>
 <a href="user/Register.jsp">Register</a>
 </body>
 </html>

@@ -4,17 +4,17 @@ html, body, p, h1, h2, h3 {
   padding:0;
 }
 body {
-  background:black url(index_HSC_bg.png) center top no-repeat;
+/*   background:black url(index_HSC_bg.png) center top no-repeat; */
   color:white;
   font-family:trebuchet ms;
-  width:800px;
+/*   width:800px; */
   margin:auto;
   
 }
 .header {
-  height:100px;
-  line-height:100px;
-  padding-left:10px;
+/*   height:100px; */
+/*   line-height:100px; */
+  padding-left:0px;
 }
 
 .tabs {
@@ -24,7 +24,7 @@ body {
 .tabs a {
   float:left;
   background: url(alpha-b.png);
-  padding: 0 5px 0 5px;
+  padding: 0 2px 0 2px;
   margin-right:10px;
   color: white;
 }

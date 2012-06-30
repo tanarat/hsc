@@ -17,12 +17,14 @@
 <body>
 
 <div class="header">
-<!--   <h1>Halal Science Center</h1> -->
+<img src="${contextPath}/images/1_01.jpg" />
+<img src="${contextPath}/images/logo.png" />
 
 </div>
 
 <div class="tabs">
- 
+ <a href="">Register</a>
+ <a href="">xxx</a>
 </div>
 <div class="tabs-under-bg"></div>
 <div class="tabs-under">
@@ -33,11 +35,14 @@
   <h2><decorator:title /></h2>
 </div>
 <div class="body">
-<decorator:body />
+<table>
+<tr>
+<td width="30"></td><td><decorator:body /></td>
+</tr>
+</table>
+
 </div>
 
 
-
-</div>
 </body>
 </html>
