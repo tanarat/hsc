@@ -4,11 +4,12 @@ html, body, p, h1, h2, h3 {
   padding:0;
 }
 body {
-/*   background:black url(bg.jpg) center top no-repeat; */
+  background:black url(index_HSC_bg.png) center top no-repeat;
   color:white;
   font-family:trebuchet ms;
   width:800px;
   margin:auto;
+  
 }
 .header {
   height:100px;
@@ -63,7 +64,7 @@ body {
 .body {
   background:white;
   color:black;
-  padding:5px;
+/*   padding:5px; */
 }
 
 input {

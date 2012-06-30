@@ -17,7 +17,8 @@
 <body>
 
 <div class="header">
-  <h1>Halal Science Center</h1>
+<!--   <h1>Halal Science Center</h1> -->
+
 </div>
 
 <div class="tabs">
