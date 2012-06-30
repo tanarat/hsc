@@ -4,9 +4,11 @@
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-
+	<constant name="struts.custom.i18n.resources" value="global" />
     <constant name="struts.enable.DynamicMethodInvocation" value="false" />
     <constant name="struts.devMode" value="true" />
+    <constant name="struts.ui.theme" value="mkyong" />
+	<constant name="struts.ui.templateDir" value="template" />
 
     <package name="default" namespace="/" extends="struts-default">
 
@@ -21,14 +23,22 @@
         </global-exception-mappings>
 
         
-        <action name="register" class="com.mycom.hsc.action.RegisterAction">
-            <result name="input">/register/Register.jsp</result>
-            <result name="success">/register/RegisterSuccess.jsp</result>
+<!--         <action name="register" class="com.mycom.hsc.action.RegisterAction"> -->
+<!--             <result name="input">/register/Register.jsp</result> -->
+<!--             <result name="success">/register/RegisterSuccess.jsp</result> -->
             
-        </action>
+<!--         </action> -->
         
     </package>
-
+	<package name="user" namespace="/user" extends="struts-default">
+	    <action name="register">
+	        <result>Register.jsp</result>
+	    </action>
+	    <action name="validateRegister" class="com.mycom.hsc.action.RegisterAction">
+	        <result name="input">Register.jsp</result>
+            <result name="success">RegisterSuccess.jsp</result>
+	    </action>
+	</package>
 
 
     <!-- Add packages here -->

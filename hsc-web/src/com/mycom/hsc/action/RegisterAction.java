@@ -18,7 +18,24 @@ public class RegisterAction extends ActionSupport {
 		}
 	}
 
-
+	//simple validation
+		public void validate(){
+			if("".equals(getFirstName())){
+				addFieldError("firstName", getText("firstname.required"));
+			}
+			if("".equals(getPassword())){
+				addFieldError("password", getText("password.required"));
+			}
+			if("".equals(getLastName())){
+				addFieldError("lastName",getText("lastname.required"));
+			}
+			if("".equals(getEmail())){
+				addFieldError("email", getText("email.required"));
+			}
+			if(!getReEmail().equals(getEmail())){
+				addFieldError("reEmail", getText("email.notmatch"));
+			}
+		}
 	private boolean valid() {
 		if ( (getFirstName().length() == 0) ||
 				(getLastName().length() == 0)){	

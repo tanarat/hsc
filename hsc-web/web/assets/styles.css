@@ -4,7 +4,7 @@ html, body, p, h1, h2, h3 {
   padding:0;
 }
 body {
-  background:black url(bg.jpg) center top no-repeat;
+/*   background:black url(bg.jpg) center top no-repeat; */
   color:white;
   font-family:trebuchet ms;
   width:800px;
@@ -77,4 +77,21 @@ input {
 }
 form {
 	display:inline;
+}
+
+.errorsBg{
+	background-color:#fdd;
+	color:red;	
+	border: 1px solid;
+}
+
+.errorMessage{
+	padding:0px 8px;
+}
+
+table{
+	border-spacing: 4px;
+}
+td{
+	padding:4px;
 }
